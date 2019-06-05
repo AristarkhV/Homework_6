@@ -4,7 +4,7 @@ public class Car implements Cloneable {
 
     private String mark;
     private int maxSpeed;
-    AdditionalEquipment addEquipment;
+    private AdditionalEquipment addEquipment;
 
     @Override
     protected Object clone() {
@@ -23,7 +23,7 @@ public class Car implements Cloneable {
     @Override
     public String toString() {
         return "Car{" +
-                "mark = "+ mark +
+                "mark = " + mark +
                 ", maxSpeed = " + maxSpeed +
                 ", addEquipment=" + addEquipment +
                 '}';
