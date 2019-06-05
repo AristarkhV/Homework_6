@@ -10,7 +10,7 @@ public class Robot {
                     connectionStatus = true;
                 } catch (RobotConnectionException ex) {
                 }
-                if (connectionStatus == false)  {
+                if (i == 3) {
                     throw new RobotConnectionException("bad day for connection");
                 }
             }
