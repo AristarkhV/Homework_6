@@ -4,7 +4,7 @@ public class Car implements Cloneable {
 
     private String mark;
     private int maxSpeed;
-    AdditionalEquipment addEquipment;
+    privat AdditionalEquipment addEquipment;
 
     @Override
     protected Object clone() {
